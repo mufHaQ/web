@@ -1,0 +1,4 @@
+Bahasa yang menggunakan Block Scope:
+    -> C, Java
+Bahasa yang menggunakan Function Scope:
+    -> Javascript, 

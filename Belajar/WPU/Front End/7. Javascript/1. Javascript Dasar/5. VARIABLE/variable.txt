@@ -1,0 +1,2 @@
+Definisi Variable: Sebuah 'tempat/wadah' yang memiliki nama, yang digunakan untuk menyimpan nilai.
+

@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Box Shadow 1</title>
+    
+    <style>
+        /* Clear */
+        /**
+        * For modern browsers
+        * 1. The space content is one way to avoid an Opera bug when the
+        * contenteditable attribute is included anywhere else in the document.
+        * Otherwise it causes space to appear at the top and bottom of elements
+        * that are clearfixed.
+        * 2. The use of `table` rather than `block` is only necessary if using
+        * `:before` to contain the top-margins of child elements.
+        */
+        .cf:before,
+        .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+        }
+
+        .cf:after {
+        clear: both;
+        }
+
+        /**
+        * For IE 6/7 only
+        * Include this rule to trigger hasLayout and contain floats.
+        */
+        .cf {
+        *zoom: 1;
+        }
+
+
+
+
+
+        .container {
+            margin: 50px auto;
+            width: 1000px;
+            border: 5px solid black;
+            clear: both;
+        }
+
+        .kotak {
+            width: 300px;    
+            height: 300px;
+
+            box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.8);
+            margin: 15px;
+            float: left;
+        }
+
+        .kotak1 {
+            background-color: green;
+        }
+
+        .kotak2 {
+            background-color: blue;
+        }
+
+        .kotak3 {
+            background-color: indigo;
+        }
+
+        .kotak4 {
+            background-color: orange;
+        }
+
+        .kotak5 {
+            background-color: brown;
+        }
+
+        .kotak6 {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container cf">
+        <div class="kotak1 kotak"></div>
+        <div class="kotak2 kotak"></div>
+        <div class="kotak3 kotak"></div>
+        <div class="kotak4 kotak"></div>
+        <div class="kotak5 kotak"></div>
+        <div class="kotak6 kotak"></div>
+    </div>
+</body>
+</html>

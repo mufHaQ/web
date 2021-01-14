@@ -1,0 +1,18 @@
+"Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen. Sebuah elemen dapat dipaksa untuk berada di sebelah kiri atau kanan dari parent/pembungkusnya dengan menggunakan properti ini."
+
+Value Float:
+-> none
+-> left
+-> right
+
+-> Normal Flow: Seperti yang sudah dibuat sampai saat ini
+-> Out-of Flow: yang akan dipelajari
+
+Yang bisa dilakukan menggunakan properti Float:
+-> Text Wrapping:
+    Membuat teks mengelilingi gambar/elemen lain
+-> Image Gallery:
+    Membuat serangkaian gambar menjadi galeri
+-> Multi-Column Layout:
+    Membuat halaman memiliki beberapa kolom
+-> dll

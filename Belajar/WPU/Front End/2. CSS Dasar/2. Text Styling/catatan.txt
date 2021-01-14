@@ -1,0 +1,1 @@
+CSS membedakan antara font dan text, dimana font itu untuk type/font-facenya atau bentuk/wajah dari sebuah font. Sedangkan untuk text itu untuk properti pendukungnya, seperti warna, indentasi jarak antar kata dan jarak antar huruf, dll.

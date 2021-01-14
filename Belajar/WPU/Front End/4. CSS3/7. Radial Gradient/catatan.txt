@@ -1,0 +1,12 @@
+Jangkauan:
+    Jarak dari pusat gradient ke sisi terluar-nya
+
+Daftar Jangkauan:
+    -> closest-corner: 
+            Jarak dari pusat gradient ke sudut terdekat elemen.
+    -> closest-side:
+            Jarak dari pusat gradient ke sisi terdekat elemen.
+    -> farthest-corner:
+            Jarak dari pusat gradient ke sudut terjauh elemen.
+    -> farthes-side:
+            Jarak dari pusat gradient ke sisi terjauh elemen.

@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    filter: invert(107%);
+    -webkit-filter: invert(70%);
+}
+
+h1 {
+    
+    filter: drop-shadow(10px 10px 10px black);
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+}
+
+.box-shadow {
+    color: white;
+    margin: auto;
+    height: 100px;
+    width: 300px;
+    background-color: #D76A70;
+}

@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Fira Code';
+}
+
+.red {
+    color: red;
+    font-size: 30px;
+}
+
+ul li a {
+    color: green;
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: whitemsoke;
+  background-image: url(../../../Gambar/imageedit_4_4122026486.png);
+  background-repeat: repeat-y;
+}
+
+.text-style {
+    padding: 10px;
+}
+
+.list-style {
+    list-style-type: circle;
+}   
+
+.a-style:hover {
+    font-size: 30px;
+}
+
+li:first-child a:hover{
+    color: #DF0000;
+}
+
+li:nth-child(2) a:hover {
+    color: #FF6132;
+}
+
+li:nth-child(3) a:hover {
+    color: #FEF600;
+}
+
+li:nth-child(4) a:hover {
+    color: #01BB00;
+}
+
+li:nth-child(5) a:hover {
+    color: #009AFF;
+}
+
+li:nth-child(6) a:hover {
+    color: #000087;
+}
+
+li:last-child a:hover {
+    color: #2F009C;
+}

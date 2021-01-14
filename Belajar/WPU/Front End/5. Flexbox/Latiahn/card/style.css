@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(185, 185, 185);
+}
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    border: 5px solid black;
+    width: 75%;
+    background-color: rgb(216, 216, 216);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+
+.card {
+    margin: 10px;
+    /* display: flex; */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    height: 250px;
+    width: 300px;
+    background-color: gray;
+    background-image: url(../../../../img/img.png);
+    background-size: cover;
+}
+
+.keterangan {
+    position: absolute;
+    top: 500px;
+    transition: all .7s;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.header:hover .keterangan {
+    top: 0;
+}
+
+.text {
+    margin: 10px;
+    height: 230px;
+    overflow: auto;
+    color: white;
+}
+
+.text p {
+    margin: 0;
+}
+
+.box {
+    position: relative;
+    height: 90px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+}
+
+.button {
+    margin: auto;
+}
+
+.button a {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+
+.button a span {
+    margin: auto;
+}

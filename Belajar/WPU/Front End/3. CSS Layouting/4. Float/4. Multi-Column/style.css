@@ -1,0 +1,92 @@
+.container {
+    width: 1310px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+
+    /* Bukan cara yang paling tepat */
+    /* overflow: auto;  */
+}
+
+.kiri, .garis1, .tengah1, .garis2, .tengah2, .garis3, .kanan {
+    height: 500px;
+    float: left;
+}
+
+.kiri, .kanan, .tengah1, .tengah2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.kiri {
+    width: 215px;
+    /* margin: 10px; */
+    background-color: salmon;
+}
+.tengah1 {
+    width: 525px;
+    /* margin: 10px; */
+    background-color: lightskyblue;
+}
+
+.tengah2 {
+    width: 335px;
+    /* margin: 10px; */
+    background-color: lightpink;
+}
+
+.kanan {
+    width: 215px;
+    /* margin: 10px; */
+    background-color: limegreen;
+}
+
+/* Garis */
+.garis1, .garis2, .garis3 {
+    width: 5px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* Clear Float */
+/* .clear {
+    clear: both;
+} */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.c:before,
+.c:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.c:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.c {
+    *zoom: 1;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beranda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a href="#" onclick="openNav()" id="open">&#9776;</a>
+        <a href="#" onclick="closeNav()" id="closing">&#9776;</a>
+        <ul>
+            <li>
+                <a href="#">Menu</a>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="Mystyle">
+        <h1>Web ini dibuat oleh </h1><br>
+        <h1>Dliyaulhaq Mufliansyah</h1>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="beranda.html" class="in-hover" id="warna-background">Beranda</a>
+        <a href="kalkulator.html" class="in-hover">Kalkulator</a>
+        <a href="makanan.html" class="in-hover">Makanan</a>
+        <a href="data_pahlawan.html" class="in-hover">Pahlawan</a>
+    </div>
+
+    <script src="jQuery.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        $('#closing').hide();
+        $('#open').show();
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "230px";
+            $('#closing').show();
+            $('#open').hide();
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            $('#open').show();
+            $('#closing').hide();
+        }
+    </script><br><br>
+
+</body>
+
+</html>

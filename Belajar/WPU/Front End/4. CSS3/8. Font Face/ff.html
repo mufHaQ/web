@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Font Face</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+    <style>
+        /* @font-face {
+        font-family: 'Kaushan Script';
+        src: url(font/KaushanScript-Regular.otf) format('truetype');
+        } */
+
+        @font-face {
+            font-family: 'Kaushan Script';
+            src: url(font/kaushanscript-regular-webfont.woff) format('woff'),
+            url(font/kaushanscript-regular-webfont.woff2) format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        h1 {
+            /* Kalau tidak bisa/tidak cukup, bisa menggunakan @font-face */
+            /* font-family: 'Fira Code', monospace;  */
+            font-size: 10px;
+            font-family: 'Kaushan Script';
+            font-size: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+</body>
+
+</html>

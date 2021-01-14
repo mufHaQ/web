@@ -1,0 +1,11 @@
+Pseudo-Class yang berhubungan dengan link:
+- [:link]: Style default pada sebuah link (a yang memiliki href)
+- [:hover]: Style ketika kursor mouse berada diatas sebuah link/element
+- [:active]: Style ketika link di-klik (keadaan aktif)
+- [:visited]: Style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yang sama)
+
+Pseudo-Class yang berhubungan dengan posisi element(1):
+- [:first-child]: Memilih element pertama dari sebuah parent (element pembungkusnya)
+- [:last-child]: Memilih element terakhir dari sebuah parent (element pembungkusnya)
+- [:nth-child(n)]: Memilih element ke-n dari sebuah parent (element pembungkusnya):
+    - n Bisa berarti urutan (1), (2), ... atau pola (2n), (3n+2), (4n-1) atau ganjil (odd) dan genap (even)

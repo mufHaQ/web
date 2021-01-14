@@ -1,0 +1,5 @@
+Vendor Prefix:
+-> -webkit- (Chrome, Safari, Opera versi terbaru)
+-> -moz- (Firefox)
+-> -ms- (Internet Explorer)
+-> -o- (Opera versi terdahulu)

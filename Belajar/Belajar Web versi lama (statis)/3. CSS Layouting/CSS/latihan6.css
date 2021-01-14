@@ -1,0 +1,77 @@
+.container {
+    padding: 5px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    display: flow-root;
+}
+
+img {
+    float: left;
+    margin: 5px;
+}
+
+
+
+
+/* Latihan 6.2 */
+
+.kotak {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    color: rgb(37, 43, 43);
+    font-size: 20px;
+    margin: 2px;
+    color: white;
+    background-color: teal;
+    float: left;
+}
+
+
+/* Latihan 6.3 */
+
+.container-tiga {
+    width: 900px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    display: flow-root;
+    /* overflow: auto; */
+}
+
+.kiri {
+    width: 140px;
+    height: 500px;
+    background-color: saddlebrown;
+    float: left;
+}
+
+.tengah {
+    width: 610px;
+    height: 500px;
+    background-color: seagreen;
+    float: left;
+}
+
+.kanan {
+    width: 140px;
+    height: 500px;
+    background-color: slategrey;
+    float: left;
+}
+
+.kiri, .tengah {
+    margin-right: 5px;
+}
+
+/* Clear float */
+/* .clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+} */

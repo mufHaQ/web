@@ -1,0 +1,6 @@
+Format box-shadow ke-1: <x-offset> <y-offset> <blur> <color>
+Format box-shadow ke-2: <inset> <x-offset> <y-offset> <blur> <spread> <color>
+
+ket:
+-> spread berfungsi untuk mengubaha ukuran shadow
+-> inset dan spread opsional, boleh ada boleh tidak

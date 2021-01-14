@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Makanan</title>
+
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <a href="#" onclick="openNav()" id="open">&#9776;</a>
+        <a href="#" onclick="closeNav()" id="closing">&#9776;</a>
+        <a href="#" style="pointer-events: none;">Makanan Khas</a>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="beranda.html" class="in-hover">Beranda</a>
+        <a href="kalkulator.html" class="in-hover">Kalkulator</a>
+        <a href="makanan.html" class="in-hover" id="warna-background">Makanan</a>
+        <a href="data_pahlawan.html" class="in-hover">Pahlawan</a>
+    </div>
+
+    <script src="javascript/jQuery.js"></script>
+
+
+    <script type="text/javascript">
+
+        $('#closing').hide();
+        $('#open').show();
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+            $('#closing').show();
+            $('#open').hide();
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            $('#open').show();
+            $('#closing').hide();
+        }
+    </script><br><br>
+    </div><br><br>
+    <script src="jQuery.js"></script>
+
+
+
+
+
+
+    <Button id="show" class="button-showHide" style="cursor: pointer;">Tampilkan</Button>
+    <Button id="hide" class="button-showHide" style="cursor: pointer;">Sembunyikan</Button>
+
+    <script type="text/javascript">
+        $('#show').show();
+        $('#hide').hide();
+
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $(".showHide").hide();
+                $('#hide').hide();
+                $('#show').show();
+            });
+            $("#show").click(function () {
+                $(".showHide").show();
+                $('#hide').show();
+                $('#show').hide();
+            });
+        });
+
+    </script>
+
+    <div class="showHide">
+        <hr>
+        <h1>Makanan Khas di Indonesia</h1>
+
+
+        <hr>
+        <br>
+        <p style="font-size: 100%;">Dikutip dari <a href="https://makananoleholeh.com/makanan-khas-daerah/"
+                target="blank_">makananoleholeh.com</a> Indonesia merupakan sebuah nama negara yang berasa di Kawasan
+            Asia.
+            Lebih tepatnya, negara ini berada di daerah Asia Tenggara. Sejak terbentuk sebagai sebuah negara berdaulat,
+            Indonesia telah dikenal sebagai daerah yang kaya. Baik dari segi hasil alam, budaya, dan lain sebagainya.
+            Oleh
+            sebab itulah, tidak mengherankan jika di negara ini terdapat begitu banyak makanan khas deaerah. Pada
+            kesempatan
+            kali ini makananoleholeh.com ingin berbagi makanan khas daerah yang menjadi ciri khas di daerah tersebut.
+
+            Salah satu keunikan yang ada di Indonesia adalah terdapat begitu banyak masakan kuliner. Pada dasarnya,
+            masakan
+            kuliner merupakan sebuah olahan makanan yang menjadi ciri khas suatu daerah. Makanan khas daerah di
+            Indonesia
+            tersebut cukup banyak yang terkenal baik local maupun manca negara. Karena hal tersebut maka banyak orang
+            yang
+            menyukai kuliner asli nusantara.
+
+            Di negara indonesia ini, karena saking banyaknya makanan khas membuat sebagian daerah menjadi pusat kuliner
+            yang
+            wajib di kunjungi dan juga oleh-olehnya. Tidak heran jika kota-kota seperti surabaya, bali, jogja, bandung,
+            sunda, maluku, jakarta, semarang, lampung, aceh, malang dan masih banyak kota lainnya menjadi sorotan untuku
+            berkunjung menikmati berbagai wisata kuliner maupun oleh-olehnya.</p>
+        <br>
+
+        <p>Pada kesempatan kali ini saya akan membahas beberapa makanan/masakan enak dari berbagai daerah di Nusantara
+        </p>
+
+
+
+        <ol>
+            <li><b><a href="https://id.wikipedia.org/wiki/Bika_ambon" target="blank_">Bika Ambon</a></b></li>
+            <img src="img/Bika-Ambon-dari-medan.jpg" alt="Bika Ambon" class="img-hvr">
+            <p><b>Bika Ambon</b> merupakan salah satu makanan asli dari daerah Nusantara. Makanan ini berasal dari
+                daerah Ambon, Sumatra Utara.Bentuk kuliner berupa kue ini dibuat dari campuran gula, telur dan santan.
+                Biasanya, makanan bika ambon memiliki aroma yang wangi. Aroma wangi dari kuliner tersebut membuatnya
+                menjadi makanan khas Daerah favorit dari Provinsi Sumatra Utara.</p>
+            <br>
+            <li><b><a href="https://id.wikipedia.org/wiki/Mi_aceh" target="blank_">Mie Aceh</a></b></li>
+            <img src="img/Mie-Aceh.jpg" alt="Mie Aceh" class="img-hvr">
+            <p><b>Mie Aceh</b> Ketika berkunjung ke Provinsi Nanggroe Aceh Darussalam akan terasa kurang lengkap jika
+                tidak
+                mencicipi masakan kuliner makanan khas Daerah Aceh. Salah satu menu kuliner asli daerah Aceh adalah mie
+                Aceh. Makanan ini juga termasuk kuliner yang begitu disukai masyarakat Indonesia. Rasa lezat dari
+                hidangan
+                mie Aceh membuat para penikmatnya menjadi ketagihan. Oleh sebab itulah, maka tidak mengherankan jika
+                banyak
+                orang yang berkunjung ke serambi mekkah tersebut mencari kuliner mie Aceh.</p>
+            <br>
+            <li><b><a href="https://id.wikipedia.org/wiki/Pempek_lenggang" target="blank_">Pempek Palembang</a></b></li>
+            <img src="img/Pempek-Palembang.jpg" alt="Pempek Palembang" class="img-hvr">
+            <p><b>Pempek Palembang</b> Pempek merupakan makanan khas Daerah Palembang, Sumatra Selatan yang begitu
+                populer
+                di Indonesia. Masakan yang terbuat dari sagu dan ikan ini memiliki rasa yang lezat. Rasa lezat dalam
+                sebuah
+                hidangan empek – empek asli Palembang membuat setiap orang yang mencobanya menjadi ketagihan.</p>
+            <br>
+            <li><b><a href="https://id.wikipedia.org/wiki/Kerak_telor" target="blank_">Kerak Telor</a></b></li>
+            <img src="img/Kerak-telor-dari-Jakarta.jpg" alt="Kerak Telor" class="img-hvr">
+            <p><b>Kerak Telor</b> Kerak telur menjadi suatu masakan yang merupakan perpaduan dari masakan khas Portugis.
+                Jenis hidangan ini menjadi makanan khas Berawi Jakarta. Kuliner bernama kerak telur akan mudah dijumpai
+                saat
+                acara pekan raya di Jakarta. Bahkan tidak jarang kuliner kerak telur dijadikan simbol dalam kegiatan
+                tersebut.</p>
+            <br>
+            <li><b><a href="https://id.wikipedia.org/wiki/Gudeg" target="blank_">Gudeg</a></b></li>
+            <img src="img/Gudeg-Jogjakarta.jpg" alt="Gudeg" class="img-hvr">
+            <p><b>Gudeg</b> Apabila mendengar kata gudeg pasti pikiran akan langsung tertuju pada Provinsi Yogyakarta.
+                Memang benar, gudeg menjadi kuliner andalan dari daerah istimewa ini. Karena saking populernya,
+                Yogyakarta
+                dikenal sebagai kota gudeg. Pada dasarnya, kuliner gudeg terbuat dari olahan sayur nangka. Makanan khas
+                jogja ini mendapat perhatian lebih bagi para wisatawan yang pergi kesana. Bagi pecinta wisata kuliner
+                jogja
+                tentu ketika pergi kesana wajib hukumnya menikmati gudek jogja.</p>
+        </ol>
+        <br>
+        Ya, itulah sedikit ulasan dari saya tentang makanan khas daerah Nusantara.
+
+        <br>
+        <br>
+        <br>
+
+        <p>Silahkan tinggalkan komentar apapun walaupun belum berfungsi.</p>
+        <textarea name="textarea" cols="50" rows="10"></textarea>
+        <br>
+        <button>Submit</button>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>

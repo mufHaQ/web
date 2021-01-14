@@ -1,0 +1,14 @@
+.head {
+    background-color: DarkBlue;
+    padding: 1%;
+    color: white;
+}
+
+.carousel .carousel-inner{
+    height:500px
+}
+
+.carousel .tales  {
+    height: 1%;
+    width: 100%;
+}

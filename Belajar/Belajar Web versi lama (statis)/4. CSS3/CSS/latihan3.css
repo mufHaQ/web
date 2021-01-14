@@ -1,0 +1,52 @@
+.box-shadow {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+
+    /* Color Gradient 1
+    background: -moz-linear-gradient(left, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 208, 1) 27%, rgba(149, 0, 255, 1) 52%, rgba(0, 187, 255, 1) 75%, rgba(0, 255, 55, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 0, 0, 1)), color-stop(27%, rgba(255, 0, 208, 1)), color-stop(52%, rgba(149, 0, 255, 1)), color-stop(75%, rgba(0, 187, 255, 1)), color-stop(100%, rgba(0, 255, 55, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 208, 1) 27%, rgba(149, 0, 255, 1) 52%, rgba(0, 187, 255, 1) 75%, rgba(0, 255, 55, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 208, 1) 27%, rgba(149, 0, 255, 1) 52%, rgba(0, 187, 255, 1) 75%, rgba(0, 255, 55, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 208, 1) 27%, rgba(149, 0, 255, 1) 52%, rgba(0, 187, 255, 1) 75%, rgba(0, 255, 55, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 208, 1) 27%, rgba(149, 0, 255, 1) 52%, rgba(0, 187, 255, 1) 75%, rgba(0, 255, 55, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#00ff37', GradientType=1); */
+
+    /* Color Gradient 2 */
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 65, 158, 1) 45%, rgba(6, 84, 170, 1) 54%, rgba(5, 115, 191, 1) 67%, rgba(0, 212, 255, 1) 100%); */
+
+    /* Color Gradient 3 */
+    background: rgb(131, 58, 180);
+    background: linear-gradient(135deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+    /* Box-Shadow */
+    -webkit-box-shadow: -15px -15px 10px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: -15px -15px 10px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: -15px -15px 10px 0px rgba(0, 0, 0, 0.7);
+
+    /* Color Gradient 4 */
+    /* background: rgb(2, 0, 36);
+    background: radial-gradient(circle farthest-side at top right, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 30%, rgba(7, 65, 158, 1) 45%, rgba(6, 84, 170, 1) 54%, rgba(5, 115, 191, 1) 67%, rgba(0, 212, 255, 1) 100%); */
+
+    /* Border-Radius */
+    /* border-radius: 250px 250px 250px 250px;
+    -moz-border-radius: 250px 250px 250px 250px;
+    -webkit-border-radius: 250px 250px 250px 250px;
+    border: 5px solid #000000; */
+}
+
+p {
+    padding: 15px;
+    color: white;
+    /* font-family: 'Pacifico',
+    cursive; from  font.google.com*/
+    font-family: "1942", arial;
+}
+
+@font-face {
+    font-family: "1942";
+    src: url('../../../Font/1942-report-fontfacekit/1942-report/1942.ttf') format('truetype');
+}
+
+

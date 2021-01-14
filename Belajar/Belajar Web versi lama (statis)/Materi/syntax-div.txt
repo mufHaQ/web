@@ -1,0 +1,3 @@
+.kotak{$}*10
+
+Dibaca "div dengan class="kotak" berjumlah 10".

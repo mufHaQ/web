@@ -1,0 +1,14 @@
+Di dalam javascript tidak ada nilai integer, yang ada hanyalah floating point/bilangan pecahan. Ukuran angka yang bisa ditampung oleh javascript adalah 64 bit.
+
+yang dapat di simpan:
+-> Angka tanpa desimal:
+        -> 10, 1500, 123456
+        -> Tingkat akurasinya hanya sampai 15 digit.
+-> Angka dengan desimal:
+        -> 3.14, 0.5, 100.00
+        -> Maksimal bisa menyimpan 17 digit dibelakang koma.
+-> Eksponen:
+        -> 123e5 => 12300000
+        -> 123-e5 => 0.00123
+-> Bilangan negatif:
+        -> -25, -65

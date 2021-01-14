@@ -1,0 +1,2 @@
+Explicit: Ketika kita secara jelas menuliskan ukuran dari gridnya.
+Implicit: Ketika gridnya menentukan secara otomatis sisanya dari kolom dan baris yang tidak kita tentukan secara explicit.

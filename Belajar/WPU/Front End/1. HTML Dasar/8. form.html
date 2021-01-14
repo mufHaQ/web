@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Dasar | Form</title>
+
+    <style>
+        .margin-center {
+            margin: 0 auto;
+        }
+
+        .fill {
+            height: 70px;
+            background-color: blue;
+        }
+
+        .align-right {
+            text-align: right;
+        }
+
+        .align-center {
+            text-align: center;
+        }
+
+        .margbot {
+            margin-bottom: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" class="margin-center" style="border: 1px solid black; width: 40%; margin-top: 70px;">
+        <div class="fill">
+            <h2 style="text-align: center; margin: auto; line-height: 70px; color: white;">Form</h2>
+        </div>
+
+        <div style="padding: 10px;">
+            <input type="text" placeholder="Nama *" style="width: 100%;">
+            <label for="tinggal" style="font-size: 20px; margin-right: 5px;">Tempat tinggal saat ini</label>
+            <select name="tinggal" id="tempat-tinggal" style="margin-top: 13px; font-size: 15px;">
+                <option value="Rumah">Rumah</option>
+                <option value="Kost">Kost</option>
+            </select>
+            <textarea name="alamat" id="alamat" rows="5" placeholder="Alamat tempat tinggal saat ini *"
+                style="margin-top: 10px; width: 100%; resize: none; font-size: 20px;"></textarea>
+
+            <div style="font-size: 20px; margin-top: 10px;">
+                <label for="Pria">Pria</label>
+                <input type="radio" id="Pria" name="kelamin">
+                <label for="Wanita">Wanita</label>
+                <input type="radio" id="Wanita" name="kelamin" style="margin-right: 10px;">
+
+                <label for="" style="margin-right: 5px;">Kendaraan: </label>
+                <label for="umum">Umum</label>
+                <input type="checkbox" name="umum" id="umum">
+                <label for="mobil">Mobil</label>
+                <input type="checkbox" name="mobil" id="mobil">
+                <label for="sepeda">Sepeda</label>
+                <input type="checkbox" name="sepeda" id="sepeda">
+            </div>
+
+            <input type="button" style="margin-top: 10px; width: 100%; font-size: 20px;" value="Submit">
+
+
+        </div>
+        <!-- <input type="text" placeholder="Masukkan nama *"> -->
+    </form>
+
+    <div class="margbot"></div>
+
+    <form action="" class="margin-center" style="border: 1px solid black; width: 40%;">
+        <div class="fill">
+            <h2 style="text-align: center; margin: auto; line-height: 70px; color: white;">Form Tugas</h2>
+        </div>
+        <table border="1" cellpadding="5" cellspacing="0" style="width: 100%;">
+            <tr class="align-center">
+                <th><label for="username">Username: </label></th>
+                <td><input type="text" placeholder="Masukkan Username *" id="username" style="width: 100%;"></td>
+            </tr>
+            <tr class="align-center">
+                <th><label for="password">Password: </label></th>
+                <td><input type="password" placeholder="Masukkan Password *" id="password" style="width: 100%;"></td>
+            </tr>
+
+            <tr>
+                <th colspan="2" align="center">
+                    <label for="rd1">Radio 1</label>
+                    <input type="radio" id="rd1" name="radio">
+                    <label for="rd2">Radio 2</label>
+                    <input type="radio" id="rd2" name="radio">
+                </th>
+            </tr>
+
+            <tr>
+                <th colspan="2">
+                    <label for="cb1">checkbox1</label>
+                    <input type="checkbox" id="cb1">
+                    <label for="cb2">checkbox2</label>
+                    <input type="checkbox" id="cb2">
+                </th>
+            </tr>
+
+            <tr>
+                <th><label for="option">Combo Box: </label></th>
+                <td align="center">
+                    <select name="option" id="option" style="font-size: 20px;">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                        <option value="option4">Option 4</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th align="center"><label for="txtarea">Textarea: </label></th>
+                <td><textarea name="txtarea" id="txtarea" style="width: 100%; font-size: 20px; resize: none;" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <th colspan="2" align="center">
+                    <!-- <button type="submit">Button</button> -->
+                    <input type="button" name="submit" id="submit" value="Submit" style="width: 100%; font-size: 20px;">
+                </th>
+            </tr>
+        </table>
+    </form>
+
+
+    <div class="margbot"></div>
+</body>
+
+</html>

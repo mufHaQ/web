@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Upgrading</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <!-- External -->
+</head>
+
+<body>
+    <hr>
+    <center>
+        <h1 class="classes">Upgrading</h1>
+    </center>
+    <hr>
+
+
+    <p id="p1">blablabla....</p>
+    <p id="p2">asdasda</p>
+    <p class="classes">hmmmmm...</p>
+    <h2>amsdasad</h5><br>
+
+    <br>
+    <input type="text" id="inp1"></input>
+    <button onclick="showData()">SHOW</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var text;
+        //by id
+        var text1 = $('#p1').html();
+        var text2 = $('#p2').html();
+
+        //by class
+        var text3 = $('.classes').eq(1).html();
+
+        //by tag name
+        var text4 = $('h2').eq(0).html();
+
+        //event
+        // $('#p1').click(function(){
+        //     $(this).css('background-color', 'red');
+        // });
+
+        $('#p1').dblclick(function(){
+            $(this).css('background-color', 'red');
+        });
+
+        // $('#p1').mouseenter(function(){
+        //     $(this).css('background-color', 'red');
+        // });
+
+
+
+        console.log(text1);
+        console.log(text2);
+        console.log(text3);
+        console.log(text4);
+
+
+
+
+
+
+        function showData() {
+            var inp1 = $('#inp1').val();
+            console.log(inp1);
+        }
+
+
+
+    </script>
+</body>
+
+</html>

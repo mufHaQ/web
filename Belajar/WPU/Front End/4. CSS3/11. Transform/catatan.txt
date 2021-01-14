@@ -1,0 +1,9 @@
+Fungsi Transform:
+-> scale:
+        Memperbesar/memperkecil.
+-> rotate:
+        Memutar.
+-> skew:
+        Membuat condong/miring.
+-> translate:
+        Mengubah posisi.

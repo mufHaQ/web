@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Transition Test</title>
+
+    <style>
+        div {}
+
+        .kotak {
+            width: 200px;
+            height: 100px;
+            transition: .7s;
+            position: relative;
+        }
+
+        .kotak1 {
+            background-color: purple;
+            width: 200px;
+            height: 100px;
+            right: 0;
+            position: absolute;
+        }
+
+        .kotak:hover {
+            width: 400px;
+        }
+
+        .kotak h1 {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak">
+        <h1>Hello World</h1>
+        <div class="kotak1"></div>
+    </div>
+</body>
+
+</html>

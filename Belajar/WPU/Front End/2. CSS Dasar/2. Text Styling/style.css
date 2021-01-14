@@ -1,0 +1,24 @@
+.h1-text {
+    text-align: center;
+    color: rgb(134, 225, 134);
+}
+
+.p-text {
+    color: white;
+    text-indent: 50px;
+    text-align: left;
+    font-size: large;
+    
+    letter-spacing: 2px; /* Untuk jarak antar karakter/huruf */
+    word-spacing: 5px; /* Untuk jarak antar kata */
+}
+
+body {
+    background-color: rgb(66, 89, 202);
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+}

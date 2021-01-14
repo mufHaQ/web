@@ -1,0 +1,33 @@
+.outer {
+    border: 5px solid #E49F8F;
+    width: 470px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px auto;
+    background-color: palegreen;
+    box-sizing: border-box;
+}
+
+.inner {
+    height: 250px;
+    width: 450px;
+    overflow-y: auto;
+    background-color: palegreen;
+    padding: 5px;
+    margin: auto;
+}
+
+#inner-dua{
+    height: auto;
+}
+
+.inner-kedua {
+    width: 470px;
+    height: 350px;
+    overflow: auto;
+    border: 5px solid #E49F8F;
+    background-color: palegreen;
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}

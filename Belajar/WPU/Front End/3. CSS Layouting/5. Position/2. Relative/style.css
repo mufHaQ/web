@@ -1,0 +1,22 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.kotak1 {
+    background-color: limegreen;
+}
+
+.kotak2 {
+    background-color: orange;
+    position: relative;
+
+    /* Tidak menggunakan margin */
+    /* margin: 20px 0 0 20px; */
+    top: 30px;
+    left: 30px;
+}
+
+.kotak3 {
+    background-color: lightblue;
+}

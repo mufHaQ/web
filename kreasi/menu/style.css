@@ -1,0 +1,31 @@
+.container {
+    width: 900px;
+    height: 500px;
+    background-color: #ddd;
+    margin: 50px auto;
+    display: flex;
+}
+
+.kotak {
+    /* width: 40px; */
+    height: 30px;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+}
+
+.kotak1 {
+    width: 30px;
+    height: 5px;
+    margin: 3.5px 2px;
+    background-color: #aeaeae;
+}
+
+.lingkaran1 {
+    margin: 2px 2px;
+    height: 30px;
+    width: 7px;
+    height: 7px;
+    background-color: #aeaeae;
+    border-radius: 50%;
+}

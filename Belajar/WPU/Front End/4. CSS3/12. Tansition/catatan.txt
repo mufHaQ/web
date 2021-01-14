@@ -1,0 +1,2 @@
+transition: [properti] <durasi> [fungsi] [delay]
+ket: <> = wajib

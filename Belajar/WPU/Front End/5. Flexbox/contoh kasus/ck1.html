@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox | Contoh Kasus 1</title>
+
+    <style>
+        .container {
+            width: 80%;
+            height: 600px;
+            border: 5px solid #333;
+            margin: 30px auto;
+            display: flex;
+            padding: 5px;
+            box-sizing: border-box;
+
+
+            /* flex-direction: column-reverse; */
+            flex-wrap: wrap;
+            justify-content: center;
+            /* align-items: center; */
+            align-content: center;
+        }
+
+        .items {
+            width: 20%;
+            height: 100px;
+            background-color: rgb(43, 43, 255);
+            margin: 5px;
+        }
+
+        
+        .item2 {
+            width: 30%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items item2">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+        <div class="items">10</div>
+        <div class="items">11</div>
+        <div class="items">12</div>
+        <div class="items">13</div>
+        <div class="items">14</div>
+        <div class="items">15</div>
+        <!-- <div class="items">16</div>
+        <div class="items">17</div>
+        <div class="items">18</div>
+        <div class="items">19</div>
+        <div class="items">20</div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <!-- External -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="slider">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="open">&#9776;</span>
+        <span style="font-size:30px;cursor:pointer" onclick="closeNav()" id="closing">&#9776;</span>
+        <p id="p1">Kalkulator</p>
+        <div id="mySidenav" class="sidenav">
+            <a href="beranda.html" class="in">Beranda</a>
+            <a href="kalkulator.html" class="in">Kalkulator</a>
+            <a href="makanan.html" class="in">Makanan</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+            <a href="Belum_ada_isinya" class="in">...</a>
+        </div>
+    </div>
+
+    <script src="javascript/jQuery.js"></script>
+    </div>
+
+
+    <script type="text/javascript">
+
+        $('#closing').hide();
+        $('#open').show();
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "230px";
+            $('#closing').show();
+            $('#open').hide();
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            $('#open').show();
+            $('#closing').hide();
+        }
+    </script><br><br>
+
+
+    <center>
+        <div>
+            <h1 style="font-size: 50px;">Kalkulator</h1>
+            <b class="ini-b">Angka ke-1 :</b> <br> <input type="number" id="num1" class="inputan"></input><br>
+            <b class="ini-b">Angka ke-2 :</b> <br> <input type="number" id="num2" class="inputan"></input><br><br>
+            <Button onclick="Tambah()" class="btn">Tambah</Button>
+            <Button onclick="Kurang()" class="btn">Kurang</Button>
+            <Button onclick="Bagi()" class="btn">Bagi</Button>
+            <Button onclick="Kali()" class="btn">Kali</Button><br><br><br>
+        </div>
+    </center>
+
+    <h3 id="hasil" style="font-size: 30px;">Hasil : </h3>
+
+
+
+    <script src="jQuery.js"></script>
+
+    <script type="text/javascript">
+
+        function Tambah() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : " + (angka1 + angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+                console.log(hasil);
+            }
+        }
+        function Kurang() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : " + (angka1 - angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+                console.log(hasil);
+            }
+        }
+
+        function Bagi() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : " + (angka1 / angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+                console.log(hasil);
+            }
+        }
+
+        function Kali() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : " + (angka1 * angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+                console.log(hasil);
+            }
+        }
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

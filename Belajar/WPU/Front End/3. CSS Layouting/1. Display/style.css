@@ -1,0 +1,19 @@
+.style {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+
+    display: inline-block;
+}
+
+h1 {
+    background-color: green;
+}
+
+/* a:nth-of-type(4){
+    display: none;
+} */
+
+ul li {
+    display: inline;
+}

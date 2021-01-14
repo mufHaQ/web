@@ -1,0 +1,15 @@
+tanda "," berfungsi untuk grouping. Contoh:
+
+h1, h2 {
+color: green;
+}
+
+
+
+"spasi" berfungsi untuk menunjukkan lokasi. Contoh: 
+
+ul li a {
+color: orange;
+}
+
+bisa dikatakan "tag 'a' yang ada didalam tag 'li' yang ada didalam tag 'ul'". 

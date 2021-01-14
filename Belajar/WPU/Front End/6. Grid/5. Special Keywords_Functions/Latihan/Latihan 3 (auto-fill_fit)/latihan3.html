@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid | Special Keywords & Function: auto-fill 7 auto-fit</title>
+
+
+
+    <style>
+        /* Container 1 */
+        .container-1 {
+            margin: 50px auto;
+            width: 60%;
+            border: 5px solid black;
+            padding: 5px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 100px);
+        }
+
+        /* Container 2 */
+        .container-2 {
+            margin: 50px auto;
+            width: 60%;
+            border: 5px solid black;
+            padding: 5px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 100px);
+        }
+
+        .item {
+            background-color: rgb(138, 209, 254);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item:nth-child(even) {
+            background-color: rgb(255, 142, 142);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="item">auto-fit</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <!-- <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div> -->
+    </div>
+
+    <div class="container-2">
+        <div class="item">auto-fill</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <!-- <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div> -->
+    </div>
+</body>
+
+</html>

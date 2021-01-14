@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouting | Z-Index</title>
+
+    <style>
+        body {
+            height: 2000px;
+        }
+
+        .kotak1 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: red;
+        }
+
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: green;
+            top: 50px;
+            left: 50px;
+        }
+
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            background-color: rebeccapurple;
+            top: 100px;
+            left: 100px;
+        }
+
+
+        .kotak {
+            /* z-index: 1; */
+            position: fixed;
+            background-color: black;
+            top: 100px;
+            bottom: 100px;
+            right: 100px;
+            left: 100px;
+            opacity: 0.7;
+
+            z-index: 1;
+        }
+
+        .close {
+            background-color: white;
+            width: 30px;
+            height: 30px;
+            border: 5px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top: -15;
+            right: -15px;
+        }
+
+        .close p {
+            text-align: center;
+            line-height: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Elemen paling bawah akan menjadi yang paling depan, dengan meggunakan z-index dapat merubah urutan posisinya -->
+    <div class="kotak">
+        <div class="close">
+            <p>&#10006</p>
+        </div>
+    </div>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    <div class="kotak3"></div>
+</body>
+
+</html>

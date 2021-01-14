@@ -1,0 +1,11 @@
+Flexbox css-tricks: Sebuah modul yang menawarkan cara yang efektif untuk menyusun, mensejajarkan dan mendistribusikan jarak antar item di dalam sebuah container, msekipun ukurannya dinamis atau bahkan yang tidak diketahui.
+
+Flexbox hanya bisa mengatur 1 dimensi saja, baik itu baris atau kolom.
+
+main axis: Sumbu utama dari sebuah container yang menentukan urutan dari penempatan items secara horizontal.
+main-start & main-end: Mulai dan berakhirnya items yang disimpan di dalam container
+main size: Ukuran (width/height) dari container yang akan membuat dimensi dari items yang raltif terhadap main size.
+
+Properti pada containernya: 
+-> display: flex;
+        Membuat sebuah elemen parent menjadi flexbox, dan membuat elemen-elemen di dalamnya bisa berperilaku flex.  

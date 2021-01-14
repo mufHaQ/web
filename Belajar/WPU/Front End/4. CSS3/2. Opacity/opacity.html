@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Opacity</title>
+
+    <style>
+        body {
+            background-image: url(../../img/spikes.png);
+        }
+
+        .kotak1 {
+            width: 300px;
+            height: 300px;
+            background-color: #f60;
+            opacity: 0.5;
+            position: relative;
+        }
+
+        .kotak2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            opacity: 0.5; /* nilai opacity-nya diambil dari kotak1 jadinya 0.25 dan tidak bisa dibuat solid ketika elemen parentnya berisi nilai opacity */
+            right: -50px;
+            bottom: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1">
+        <div class="kotak2"></div>
+    </div>
+</body>
+</html>

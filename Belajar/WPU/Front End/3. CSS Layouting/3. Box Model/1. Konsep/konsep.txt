@@ -1,0 +1,30 @@
+"CSS Box model mendefinisikan 'kotak' yang dihasilkan oleh sebuah elemen, lalu menampilkannya sesuai dengan format visualnya."
+
+"CSS Box model terdiri dari margin -> border -> padding -> content."
+
+CSS Box Model:
+-> Margin: Area transparan di sekitar kotak (diluar border).
+-> Border: Batas disekeliling content dan padding.
+-> Padding: Area transparan di dalam kotak (diantara content dan border).
+-> Content: content yang sebenarnya/di dalam box, bisa berupa teks, gambar ataupun yang lainnya.
+
+Properti untuk Margin, Padding, dan Border:
+    Margin:
+        -> margin-top
+        -> margin-right
+        -> margin-bottom
+        -> margin-left
+        -> margin
+    Padding:
+        -> padding-top
+        -> padding-right
+        -> padding-bottom
+        -> padding-left
+        -> padding
+    Border:
+        -> border-top
+        -> border-right
+        -> border-bottom
+        -> border-left
+        -> border
+

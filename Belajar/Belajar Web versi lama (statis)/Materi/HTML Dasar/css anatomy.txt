@@ -1,0 +1,6 @@
+selector {property: value;}
+
+Seperti 2W1H
+Who? What? How
+Siapa? Apa? Bagaimana?
+H1 {color: blue}

@@ -1,0 +1,125 @@
+.container {
+    width: 700px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 50px auto;
+}
+
+.kotak {
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    /* transition: 2s ease-in; */
+    animation: animasi 10s ease infinite ;
+}
+
+/* .container:hover .kotak {
+
+    animation: gerak 2s ease, gerak2 2s 2s ease, gerak3 2s 4s ease;
+
+    
+} */
+
+@keyframes animasi {
+    0% {
+        margin-left: 0;
+    }
+
+    10% {
+        margin-left: 600px;
+        margin-top: 0;
+    }
+
+    20% {
+        margin-left: 600px;
+        margin-top: 400px;
+    }
+
+    30% {
+        margin-left: 500px;
+        margin-top: 400px;
+    }
+
+    40% {
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+
+    50% {
+        margin-left: 400px;
+        margin-top: 200px;
+    }
+
+    60% {
+        margin-left: 400px;
+        margin-top: 300px;
+    }
+
+    70% {
+        margin-left: 300px;
+        margin-top: 300px;
+    }
+
+    80% {
+        margin-left: 300px;
+        margin-top: 200px;
+    }
+
+    90% {
+        margin-left: 0;
+        margin-top: 200px;
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+/* @keyframes gerak {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 10%;
+    }
+}
+
+@keyframes gerak2 {
+    from {
+        margin-left: 10%;
+        margin-top: 0;
+    }
+
+    to {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
+@keyframes gerak3 {
+    from {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    to {
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
+
+@keyframes gerak4 {
+    from {
+        margin-left: 0;
+        margin-top: 10%;
+    }
+
+    to {
+        margin-left: 0;
+        margin-top: 0;
+    }
+} */

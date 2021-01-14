@@ -1,0 +1,17 @@
+Properti yang diwariskan:
+- color
+- font
+- letter-spacing
+- line-height
+- list-style
+- text-align
+- text-indent
+- text-transform
+- visibility
+- white-space
+
+cotoh yang tidak mewarisi:
+- Jika body diberi color red default element a tidak mewarisi nilai dari properti color dan     harus ditambah: 
+a {
+    color: inherit;
+}

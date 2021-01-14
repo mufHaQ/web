@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | Radial Gradient</title>
+
+    <style>
+        div {
+            width: 900px;
+            height: 500px;
+            margin: 100px auto;
+        }
+
+        .kotak1 {
+            background-image: radial-gradient(red, green, blue);
+        }
+
+        .kotak2 {
+            background-image: radial-gradient(circle, blue, green, purple);
+        }
+        .kotak3 {
+            background-image: radial-gradient(circle closest-side, red, blue);
+        }
+        .kotak4 {
+            background-image: radial-gradient(circle closest-corner, red, blue);
+        }
+        .kotak5 {
+            background-image: radial-gradient(circle farthest-corner at top left, red, blue);
+        }
+        .kotak6 {
+            background-image: radial-gradient(circle farthest-corner at bottom right, red, blue);
+        }
+
+        h1 {
+            margin: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2">
+        <h1>Tipe Lingkaran</h1>
+    </div>
+    <div class="kotak3">
+        <h1>Tipe Lingkaran & Jangkauan </h1>
+    </div>
+    <div class="kotak4">
+        <h1>Tipe Lingkaran & Jangkauan</h1>
+    </div>
+    <div class="kotak5">
+        <h1>Tipe Lingkaran & Jangkauan & posisi</h1>
+    </div>
+    <div class="kotak6">
+        <h1>Tipe Lingkaran & Jangkauan & posisi</h1>
+    </div>
+</body>
+</html>

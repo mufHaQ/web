@@ -1,0 +1,386 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+/* ol,
+ul {
+    list-style: none;
+} */
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* Body */
+
+body {
+    margin: 0;
+    font-family: 'Fira Code';
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #aeaeae;
+    color: #333;
+    /* background-image: url(https://media4.giphy.com/media/1oF1KAEYvmXBMo6uTS/giphy.gif); */
+    background-image: url(../../img/double-bubble.png);
+    /* background-size: cover; */
+}
+
+
+
+
+
+/* Container */
+.container {
+    width: 1000px;
+    margin: 50 auto;
+    background-color: white;
+}
+
+/* Header */
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+/* Judul */
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Navigasi */
+.header ul li {
+    display: inline-block;
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: -3px;
+}
+
+.header a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+/* Hero Image */
+.hero {
+    /* Image */
+    background-image: url(../../img/img.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    /* angka pertama/kiri untuk mengatur posisi horizontal, angka kedua/kanan untuk mengatur posisi vertikal */
+
+    /* Border */
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content p {
+    word-spacing: -2px;
+
+    /* Penjarakan */
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* Penulis */
+.content .penulis {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.penulis a {
+    text-decoration: none;
+    margin-top: -5px;
+    color: orange;
+    /* border-bottom: 1px solid orange; */
+}
+
+.penulis a:hover {
+    background-color: lightskyblue;
+    color: white;
+    padding: 3px;
+    /* border-bottom: none; */
+}
+
+/* isi */
+
+
+.main {
+    padding: 10px;
+    height: 500px;
+    overflow: auto;
+    box-sizing: border-box;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    /* background-color: rgb(248, 248, 248); */
+    float: left;
+    width: 650px;
+}
+
+.side-bar {
+    float: right;
+    height: 500px;
+    overflow: auto;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    box-sizing: border-box;
+}
+
+/* .daftar, .widget{
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 200px;
+    overflow: auto;
+    box-sizing: border-box;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+} */
+
+.profil, .daftar{
+    width: 270px;
+    margin-bottom: 15px;
+    height: 210px;
+    /* border-top: 5px solid orange; */
+    border: 5px solid lightskyblue;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.widget {
+    width: 260px;
+    margin-bottom: 15px;
+    height: 214px;
+    /* border-top: 5px solid orange; */
+    border: 5px solid lightskyblue;
+    margin-top: 10px;
+}
+
+.judul-profil, .judul-widget, .judul-daftar{
+    background-color: lightskyblue;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+.isi-profil, .isi-daftar {
+    box-sizing: border-box;
+    overflow: auto;
+    height: 160px;
+    padding: 10px;
+}
+
+.isi-widget {
+    box-sizing: border-box;
+    overflow: auto;
+    height: 174px;
+}
+
+.profil img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.isi-daftar {
+    padding-left: 40px;
+}
+
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    text-align: center;
+    height: 40px;
+}
+
+.footer .copyright {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}

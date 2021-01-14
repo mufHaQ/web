@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <!-- External -->
+    <script src="main.js"></script>
+
+    
+</head>
+
+<body>
+    
+    <h1 id="hke1" align="center">Pertemuan Tanggal 11 Februari</h1>
+
+    <hr>
+    <p>Tugas membuat Login, setelah login masuk halaman Kalkulator.</p>
+    <hr><br><br><br>
+
+    <center>
+        <h1 style="font-size: 50px;">Kalkulator</h1>
+        <b class="ini-b">Angka ke-1 :</b> <br> <input type="number" id="num1" class="inputan" ></input><br>
+        <b class="ini-b">Angka ke-2 :</b> <br> <input type="number" id="num2" class="inputan" ></input><br><br>
+        <Button onclick="Tambah()" class="btn" ambah>Tambah</Button>
+        <Button onclick="Kurang()" class="btn" >Kurang</Button>
+        <Button onclick="Bagi()" class="btn" >Bagi</Button>
+        <Button onclick="Kali()" class="btn" >Kali</Button><br><br><br>
+    </center>
+
+    <h3 id="hasil" style="font-size: 30px;">Hasil : </h3>
+
+    <script type="text/javascript">
+        function Tambah() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : "+(angka1+angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+            }
+        }
+
+        function Kurang() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : "+(angka1-angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+            }
+        }
+
+        function Bagi() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : "+(angka1/angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+            }
+        }
+
+        function Kali() {
+            var angka1 = +document.getElementById("num1").value;
+            var angka2 = +document.getElementById("num2").value;
+
+            if (angka1 == "" && angka2 == "") {
+                alert("Harus diisi!");
+            } else {
+                var hasil = ("Hasil : "+(angka1*angka2));
+                document.getElementById('hasil').innerHTML = hasil;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

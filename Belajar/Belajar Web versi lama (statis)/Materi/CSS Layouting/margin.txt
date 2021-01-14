@@ -1,0 +1,5 @@
+margin: 100px 200px; -> Dibaca margin atas dan bawah 100px, margin kiri dan kanan 200px.
+
+margin: 100px auto 50px; -> Dibaca margin atas 100px, margin kiri dan kanan auto, margin bawah 50px.
+
+margin: 100px 30px 200px 50px; -> Dibaca margin atas 100px, margin kanan 30px, margin bawah 200px, margin kiri 50px.

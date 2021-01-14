@@ -1,0 +1,287 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-image: url(../../../Gambar/pathum-danthanarayana-kBY8uhuvnT8-unsplash.jpg);
+  background-repeat: repeat-y;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* ========== */
+
+body {
+  font: 20px/40px arial, sans-serif;
+  background-color: rgb(226, 226, 226);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(206, 241, 247);
+}
+
+div .header .head {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header {
+  padding: 10px 2% 10px 2%;
+  background-color: whitesmoke;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: -10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: red;
+}
+
+.header a:hover {
+  background-color: rgb(206, 241, 247);
+}
+
+.hero-image {
+  height: 400px;
+  margin: auto;
+  background-color: rgb(206, 241, 247);
+  background-image: url(../image/ilya-pavlov-OqtafYT5kTw-unsplash.jpg);
+  background-size: cover;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  background-position: -50 -250px;
+}
+
+.sumber {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.content {
+  display: flow-root;
+}
+
+.h3-text-align {
+  text-align: center;
+}
+
+/*  */
+
+#main {
+  background-color: white;
+}
+
+.judul {
+  margin-left: 2%;
+}
+
+.main {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  margin-top: 2%;
+  width: 69%;
+  padding: 2% 0px 2% 0px;
+  margin-left: 2%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main .ditulis {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+#penulis {
+  color: red;
+  text-decoration: none;
+}
+
+.main p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.isi-artikel {
+  text-indent: 50px;
+  line-height: 25px;
+  padding: 20px;
+}
+
+/*  */
+
+.footer {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  margin: 30px 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+/*  */
+.isi-penulis {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.sidebar-kesatu, .sidebar-kedua, .sidebar-ketiga {
+  float: right;
+  width: 25%;
+  padding: 10px 0px 2% 0px;
+  background-color: white;
+  margin-top: 2%;
+  margin-right: 2%;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
+
+.sidebar-kedua {
+  margin-top: 2%;
+}
+
+.sidebar-ketiga {
+  margin-top: 2%;
+}

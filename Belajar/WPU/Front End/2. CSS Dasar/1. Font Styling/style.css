@@ -1,0 +1,21 @@
+body {
+    font-family: 'Fira Code';
+    /* font-variant: small-caps; jadi jelek*/
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 35px;
+}
+
+p span {
+    color: red;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 50px;
+}

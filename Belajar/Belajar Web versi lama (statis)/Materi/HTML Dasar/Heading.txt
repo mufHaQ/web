@@ -1,0 +1,2 @@
+h1 => berfungsi untuk pemberian Judul Halaman/Artikel, lebih penting dari heading lainnya
+h2 dan seterusnya => berfungsi untuk pemberian sub Judul

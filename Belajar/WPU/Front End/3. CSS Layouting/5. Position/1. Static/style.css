@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.kotak1 {
+    background-color: limegreen;
+}
+
+.kotak2 {
+    background-color: orange;
+    margin: 20px 0 0 20px;
+}
+
+.kotak3 {
+    background-color: lightblue;
+}

@@ -1,0 +1,18 @@
+1. <HTML> tag
+2. <head> bagian
+3. <title></title> - judul halaman <style></style> <script></script> - javascript <meta></meta> - metadata - CSS
+4. metadata
+5. <body> bagian
+6. - teks <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <p>, . - pendukung teks <br>, <hr>, <em>, <strong>, . - gambar <img> - hyperlink <a> - list (bullets & numbering) <ul>, <ol>, <li>, <dl>, <dt>, <dd>
+7. - tabel <table>, <thead>, <tbody>, . - form <form>, <input>, <select>, <button> . - script <script> - object <object> - grouping <div>, <span>
+8. komentar <!-- ini adalah komentar. -->
+9. tag struktur
+10. <namatag atribut="nilai">
+11. <body bgcolor="lightblue">
+12. <body bgcolor="lightblue"> nama tag
+13. <body bgcolor="lightblue"> nama tag atribut
+14. <body bgcolor="lightblue"> nama tag atribut nilai / value
+15. <body bgcolor="lightblue" id="myid" class="myclass">
+16. global atribut
+17. accesskey class id dir lang style tabindex title
+18. www.w3school.com/Tags atribut lengkap

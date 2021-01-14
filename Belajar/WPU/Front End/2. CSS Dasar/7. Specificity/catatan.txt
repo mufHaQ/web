@@ -1,0 +1,10 @@
+"Setiap deklarasi CSS (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector."
+
+
+inline  id  class   element
+  0     0     0        0
+
+
+ul#sarapan li = 0102 (li yang berada di dalam tag ul dengan id sarapan)
+
+ul#sarapan li.favourite = 0112 (li dengan class favourite yang berada di dalam ul dengan id sarapan)

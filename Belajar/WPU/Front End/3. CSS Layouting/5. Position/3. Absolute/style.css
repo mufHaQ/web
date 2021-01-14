@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    border: 10px solid black;
+    position: relative;
+}
+
+.kotak1 {
+    background-color: orange;
+}
+
+.kotak2 {
+    background-color: limegreen;
+    position: absolute;
+    /* margin-left: 30px;
+    margin-top: -20px; */
+    left: 0px;
+    top: 0px;
+}
+
+.kotak3 {
+    background-color: lightblue;
+}

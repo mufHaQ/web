@@ -1,0 +1,19 @@
+Operator:
+-> Binary:
+        -> aritmatika:
+                -> *, /, +, -, %
+        -> penugasan:
+                -> =, +=, -=, *=, /=, %=
+        -> perbandingan:
+                -> ==, !=, ===, !==, >, <, <=, >=
+        -> logika:
+                -> &&, ||, !
+        -> string:
+                -> +
+                -> jika penjumlahan pertama string maka hasilnya string semua, contoh: "10" + 10 + 10 = "101010"
+                -> jika penjumlahan pertama angka maka hasilnya dijumah dulu, contoh: 10 + 10 + "10" = "2010" 
+-> ternary:
+        -> kondisional
+-> unary:
+        -> typeof:
+                -> 

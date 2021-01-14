@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 | RGBa & HSLa</title>
+
+    <style>
+        /* Clear */
+        /**
+        * For modern browsers
+        * 1. The space content is one way to avoid an Opera bug when the
+        * contenteditable attribute is included anywhere else in the document.
+        * Otherwise it causes space to appear at the top and bottom of elements
+        * that are clearfixed.
+        * 2. The use of `table` rather than `block` is only necessary if using
+        * `:before` to contain the top-margins of child elements.
+        */
+        .cf:before,
+        .cf:after {
+            content: " ";
+            /* 1 */
+            display: table;
+            /* 2 */
+        }
+
+        .cf:after {
+            clear: both;
+        }
+
+        /**
+        * For IE 6/7 only
+        * Include this rule to trigger hasLayout and contain floats.
+        */
+        .cf {
+            *zoom: 1;
+        }
+
+        body {
+            background-image: url(../../../img/spikes.png);
+        }
+
+
+        /* RGBa */
+        .kotak1 {
+            /* background-color: green; */
+            background-color: rgba(0, 128, 0, 0.3);
+            position: relative;
+            height: 300px;
+            width: 300px;
+        }
+
+        .kotak2 {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+
+        /* HSLa */
+        .kotak3 {
+            /* background-color: salmon; */
+            background-color: hsla(6, 93%, 71%, 0.3);
+            position: relative;
+            height: 300px;
+            width: 300px;
+        }
+
+        .kotak4 {
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+
+        .container {
+            width: 1135px;
+            margin: 0 auto;
+            border: 5px solid black;
+        }
+
+        .kiri, .kanan {
+            padding: 25px 50px 100px 50px;
+        }
+
+        .container .kiri {
+            float: left;
+        }
+
+        .kanan {
+            padding-right: 100px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container cf">
+        <div class="kiri">
+            <div class="kotak1">
+                <h1>RGBa (Red, Green, Blue, alpha)</h1>
+                <div class="kotak2"></div>
+            </div>
+        </div>
+
+        <div class="kanan">
+            <div class="kotak3">
+                <h1>HSLa (Hue Saturation Lightness alpha)</h1>
+                <div class="kotak4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

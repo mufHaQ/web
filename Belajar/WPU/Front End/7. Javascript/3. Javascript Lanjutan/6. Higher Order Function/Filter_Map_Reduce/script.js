@@ -1,7 +1,7 @@
 // Filet, Map & Reduce
 
 const angka = [-1, 8, 9, 1, 4, -5, -4, 3, 2, 9];
-
+console.log(angka);
 
 
 
@@ -26,3 +26,6 @@ const angka = [-1, 8, 9, 1, 4, -5, -4, 3, 2, 9];
 
 
 // Map
+// kalikan semua angka dengan 2
+const angkaBaru = angka.map(a => a * 2);
+console.log(angkaBaru);

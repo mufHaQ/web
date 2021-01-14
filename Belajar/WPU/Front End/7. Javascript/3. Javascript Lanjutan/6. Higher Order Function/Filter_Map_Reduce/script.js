@@ -24,8 +24,28 @@ console.log(angka);
 
 
 
-
 // Map
 // kalikan semua angka dengan 2
-const angkaBaru = angka.map(a => a * 2);
-console.log(angkaBaru);
+// const angkaBaru = angka.map(a => a * 2);
+// console.log(angkaBaru);
+
+
+
+
+
+// Reduce
+// Angka defaultnya adalah 0
+// Jumlah seluruh element pada array
+// const angkaBaru = angka.reduce((accumulator, currentValue) => accumulator + currentValue);
+// console.log(angkaBaru);
+
+
+
+
+
+// Method Chaining
+// cari angka > 5
+// Kalikan 3
+// Jumlah
+// const hasil = angka.filter(a => a > 5).map(a => a * 3).reduce((acc, curr) => acc + curr);
+// console.log(hasil);

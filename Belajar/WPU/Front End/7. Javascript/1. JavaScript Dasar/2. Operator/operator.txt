@@ -1,0 +1,11 @@
+Operator:
+  => binary:
+    -> aritmatika
+    -> penugasan
+    -> perbandingan
+    -> logika
+    -> string
+  => ternary:
+    -> kondisional
+  => unary:
+    -> typeof 

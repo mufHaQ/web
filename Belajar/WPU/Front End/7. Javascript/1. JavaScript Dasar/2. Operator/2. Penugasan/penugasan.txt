@@ -1,0 +1,3 @@
+Penugasan/Assignment:
+  => =, +=, -=, *=, /=, %=
+  => jika sebuah nilai yang awalnya 10, dan diberikan lagi menjadi 20, maka nilai tersebut akan ditimpa. Contoh: let x = 10, x = 20

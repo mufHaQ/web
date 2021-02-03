@@ -1,0 +1,32 @@
+Tipe data:
+  => number:
+    -> Tidak ada yang namanya integer, yang ada hanyalah floating point. Ukuran angka yang dapat ditampung adalah 64-bit, tetapi tidak bisa dipakai semua.
+    -> Angka yang dapat di simpan:
+      * Angka tanpa desimal:
+        .- 10, 1500, 123456
+        .- tingkat akurasi sampai 15 digit.
+      * Angka dengan desimal:
+        .- 3.14, 0.5, 100.00
+        .- tingkat akurasi sampai 17 digit angka dibelakang koma.
+      * Eksponen:
+        .- 123e5 = 12300000
+        .- 123e-5 = 0.00123
+      * Bilangan Negatif:
+        .- -25, ...
+    -> Jangan mengawali angka dengan 0,
+    -> Angak spesial:
+      * Infinity:
+        .- 2/0
+      * -Infinity
+        .- -2/0
+      * NaN: Not a Number
+        .- 2/c, 0/0, angka dengan string
+    -> Angka dengan string:
+      * 100/"10" = 10 | string "10" akan dianggap sebagai angka
+  => string:
+    -> 'Hello World'
+  => boolean:
+    -> true, false
+  => object
+  => function
+  => undefined

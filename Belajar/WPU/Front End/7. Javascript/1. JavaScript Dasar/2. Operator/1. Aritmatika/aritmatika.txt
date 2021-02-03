@@ -1,0 +1,4 @@
+Aritmatika:
+  => +, -, *, /, %
+  => Menggunakan operator precendece/urutan operasi matematika:
+    -> () -> * -> / -> + -> -
